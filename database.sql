@@ -112,5 +112,9 @@ select count(*) from users;
 -- total-max-values-check this!
 select max(total_amount)  from payments;
 
+- two tables combine the particuler column
+select users.user_name,products.product_name from users inner join products on users.user_id=products.product_id;
+
+
 
 
